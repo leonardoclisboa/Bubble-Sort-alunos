@@ -1,11 +1,12 @@
 #include <stdio.h>
 
 int main() {
+    // Declaração de um array com 10 notas fictícias de estudantes
     float notas[10] = {5.5, 8.9, 7.2, 9.5, 4.0, 6.8, 10.0, 7.5, 8.0, 6.0};
     int tamanho = 10;
 
     printf("--- SISTEMA DE CLASSIFICACAO DE NOTAS ESCOLARES ---\n\n");
-    
+    // Exibição das notas originais
     printf("Notas originais (antes da ordenacao):\n");
     for (int i = 0; i < tamanho - 1; i++) {
         printf("%.1f ", notas[i]);
