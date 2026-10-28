@@ -21,6 +21,14 @@ int main() {
             }
         }
     }
+
+    printf("Ordenando as notas em ordem DECRESCENTE utilizando Bubble Sort...\n\n");
+    printf("Notas classificadas (da maior para a menor):\n");
+    for (int i = 0; i < tamanho; i++) {
+        printf("%.1f ", notas[i]);
+    }
+    printf("\n\n");
+    printf("Classificacao concluida com sucesso!\n");
     
     return 0;
 }
