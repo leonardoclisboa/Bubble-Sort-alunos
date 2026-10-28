@@ -13,6 +13,7 @@ int main() {
     }
     printf("\n\n");
 
+    // Bubble Sort para organizar as notas de forma decrescente
     for (int i = 0; i < tamanho - 1; i++) {
         for (int j = 0; j < tamanho - i - 1; j++) {
             if (notas[j] < notas[j + 1]) {
